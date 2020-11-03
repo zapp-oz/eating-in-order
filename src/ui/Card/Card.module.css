@@ -1,0 +1,33 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px 60px;
+}
+
+.card:hover{
+    background-color: lightpink;
+    color: whitesmoke;
+    text-shadow: 2px 2px 0 black;
+}
+
+.img{
+    width: 40%;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-family: Bebas Neue, cursive;
+    font-size: 26px;
+    margin: 10px;
+}
+
+.val{
+    font-family: Abel, cursive;
+    font-size: 24px;
+    margin: 10px;
+}

@@ -1,0 +1,51 @@
+.bar{
+    background-color: #221f3b;
+    border: 3px solid #050505;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main{
+    border: 5px solid #050505;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+    top: 50px;
+    width: 30%;
+    padding: 5%;
+    background-color: #221f3b;
+    text-align: center;
+}
+
+.active,
+.active:active,
+.active:hover{
+    color: #777831;
+    margin: 5px;
+    margin-right: 30px;
+}
+
+.text{
+    font-family: 'Bebas Neue', cursive;
+    color: #ebebeb;
+    display: block;
+    margin: 10px 0;
+    font-size: 27px;
+}
+
+.image{
+    width: 70%;
+    padding: 10px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+}
+
+.headicon{
+    width: 4%;
+    display: block;
+    margin: 5px 0;
+    margin-left: 15px;
+    background-color: white;
+    padding: 5px;
+}

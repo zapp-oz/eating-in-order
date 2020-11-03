@@ -1,0 +1,76 @@
+.bar{
+    background-color: #050505;
+    padding: 20px;
+    color: #ebebeb;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.foodSearch{
+    background-color: #221f3b;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ebebeb;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foodItems{
+    background-color: #221f3b;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ebebeb;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.searchInput{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Abel', cursive;
+    font-size: 20px;
+}
+
+.input{
+    width: 80px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0px;
+    font-family: 'Abel', cursive;
+    font-size: 18px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 20px;
+    border: 3px solid #6f4a8e;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+.text{
+    font-family: 'Abel', cursive;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.heading{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #ebebeb;
+}

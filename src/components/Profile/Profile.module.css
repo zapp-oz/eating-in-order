@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.bar{
+    background-color: #050505;
+    padding: 20px;
+    color: #ebebeb;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.info{
+    padding: 20px;
+    background-color: #221f3b;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.entry{
+    text-transform: capitalize;
+    color: #ebebeb;
+    font-family: 'Abel', cursive;
+    font-size: 22px;
+}
