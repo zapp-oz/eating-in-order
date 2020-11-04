@@ -29,7 +29,7 @@ const Home = (props) => {
                 </div>
             </div>
             <div className={classes.main}>
-                <h1 style={{fontSize: '32px'}} className={classes.text}>nutrition tracker</h1>
+                <h1 style={{fontSize: '32px'}} className={classes.text}>Eating in order</h1>
                 <img className={classes.image} src="/assets/images/cardiogram.svg"/>
                 <span className={classes.text}>A better way to manage your health and nutrition!</span>
             </div>

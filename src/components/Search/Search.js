@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Button from '../../ui/Button/Button'
 import Sidebar from '../../ui/Sidebar/Sidebar'
+
 
 import classes from './Search.module.css'
 
@@ -49,7 +51,11 @@ const Search = (props) => {
                                 autoComplete='off'
                                 className={classes.input}>
                             </input>
-                            <Button>Add!</Button>
+                            <Link to={{
+                                pathname: '/profile/dashboard'
+                            }}>
+                                <Button>Add!</Button>
+                            </Link>
                         </div>
                     </div>
                     <div className={classes.item}>
@@ -71,7 +77,11 @@ const Search = (props) => {
                                 autoComplete='off'
                                 className={classes.input}>
                             </input>
-                            <Button>Add!</Button>
+                            <Link to={{
+                                pathname: '/profile/dashboard'
+                            }}>
+                                <Button>Add!</Button>
+                            </Link>
                         </div>
                     </div>
                     <div className={classes.item}>
@@ -93,7 +103,11 @@ const Search = (props) => {
                                 autoComplete='off'
                                 className={classes.input}>
                             </input>
-                            <Button>Add!</Button>
+                            <Link to={{
+                                pathname: '/profile/dashboard'
+                            }}>
+                                <Button>Add!</Button>
+                            </Link>
                         </div>
                     </div>
                 </div>

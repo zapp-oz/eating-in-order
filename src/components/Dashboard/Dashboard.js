@@ -35,17 +35,17 @@ const Dashboard = (props) => {
                     </p>
                     <div className={classes.content}>
                         <Card btn="Delete" source="/assets/images/biryani.svg">Chicken Biryani</Card>
-                        <Card btn="Delete" source="/assets/images/salad.svg">Caesar's Salad</Card>
+                        <Card btn="Delete" source="/assets/images/salad.svg">Caesar Salad</Card>
                     </div>
                 </div>
                 <div className={classes.nutrient}>
                     <p className={classes.heading}>Nutrient Breakdown</p>
                     <div className={classes.content}>
-                        <Card value='400 kcal' source="/assets/images/calorie.svg">Calories</Card>
-                        <Card value='30 g' source="/assets/images/protein.svg">protein</Card>
-                        <Card value='46 g' source="/assets/images/carbs.svg">Carbohydrates</Card>
-                        <Card value='20g' source="/assets/images/trans-fat.svg">fats</Card>
-                        <Card value='15g' source="/assets/images/fiber.svg">fiber</Card>
+                        <Card curVal='1700' maxVal='1600' value='1700 kcal' max='1600 kcal' source="/assets/images/calorie.svg">Calories</Card>
+                        <Card curVal='30' maxVal='50' value='30 g' max='50g' source="/assets/images/protein.svg">protein</Card>
+                        <Card curVal='46' maxVal='40' value='46 g' max='40g' source="/assets/images/carbs.svg">Carbohydrates</Card>
+                        <Card curVal='20' maxVal='25' value='20g' max='25g' source="/assets/images/trans-fat.svg">fats</Card>
+                        <Card curVal='15' maxVal='26' value='15g' max='26g' source="/assets/images/fiber.svg">fiber</Card>
                     </div>
                 </div>
             </div>

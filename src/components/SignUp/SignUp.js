@@ -18,7 +18,7 @@ const SignUp = (props) => {
                     fontSize: '30px',
                     margin: '0px'
                 }}>
-                    nutrtion tracker
+                    eating in order
                 </h3>
             </div>
             <div>
@@ -63,52 +63,20 @@ const SignUp = (props) => {
                                 className={classes.input}
                                 required>
                             </input>
-                            <div style={{
-                                    padding: '5px'
-                                }}>
-                                <input 
-                                    type='radio'
-                                    id='veg'
-                                    name='food'
-                                    value='Vegetarian' 
-                                    style={{
-                                        display: 'inline-block',
-                                        padding: '5px'
-                                    }}
-                                    required>
-                                </input>
-                                <label 
-                                    for='veg'
-                                    style={{
-                                        fontSize: '20px',
-                                        fontFamily: 'Abel,cursive',
-                                        color: 'white',
-                                        padding: '5px'
-                                    }}>
-                                        Vegetarian
-                                </label>
-                                <input 
-                                    type='radio'
-                                    id='non-veg'
-                                    name='food'
-                                    value='Non-Vegetarian' 
-                                    style={{
-                                        display: 'inline-block',
-                                        padding: '5px'
-                                    }}
-                                    required>
-                                </input>
-                                <label 
-                                    for='non-veg'
-                                    style={{
-                                        fontSize: '20px',
-                                        fontFamily: 'Abel,cursive',
-                                        color: 'white',
-                                        padding: '5px'
-                                    }}>
-                                        Non-Vegetarian
-                                </label>
-                            </div>
+                            <input 
+                                type='number'
+                                placeholder='loose weight (kg)' 
+                                autoComplete='off' 
+                                className={classes.input}
+                                required>
+                            </input>
+                            <input 
+                                type='number'
+                                placeholder='time (in days)' 
+                                autoComplete='off' 
+                                className={classes.input}
+                                required>
+                            </input>
                             <div
                                 style={{
                                     padding: '5px'

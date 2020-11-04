@@ -15,14 +15,14 @@
     width: 60%;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 30px;
     display: flex;
 }
 
 .left{
     width: 50%;
     background-color: #221f3b;
-    height: 60.0vh;
+    height: 70.0vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,11 +54,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60.0vh;
+    height: 70.0vh;
 }
 
 .text{
     display: inline-block;
     font-family: 'Bebas Neue', cursive;
-    font-size: 22px;
+    font-size: 26px;
 }

@@ -18,7 +18,7 @@ const Login = (props) => {
                     fontSize: '30px',
                     margin: '0px'
                 }}>
-                    nutrtion tracker
+                    eating in order
                 </h3>
             </div>
             <div>
@@ -30,14 +30,15 @@ const Login = (props) => {
                                 name='username' 
                                 placeholder='username' 
                                 autoComplete='off' 
-                                className={classes.input}>
-                                
+                                className={classes.input}
+                                required>
                             </input>
                             <input 
                                 type='password'
                                 placeholder='password' 
                                 autoComplete='off' 
-                                className={classes.input}>
+                                className={classes.input}
+                                required>
                             </input>
                             <div>
                                 <Button>login</Button>
@@ -45,7 +46,7 @@ const Login = (props) => {
                         </form>
                     </div>
                     <div className={classes.right}>
-                        <span className={classes.text}>{props.location.hash.replace('#', '')} and change your life!</span>
+                        <span className={classes.text}>Login and finish what you took up!</span>
                     </div>
                 </div>
             </div>

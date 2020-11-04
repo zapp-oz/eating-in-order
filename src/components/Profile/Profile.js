@@ -25,7 +25,8 @@ const Profile = (props) => {
                     <Card btn="Edit" value='175 cm' source='/assets/images/height.svg'>height</Card>
                     <Card btn="Edit" value='20.0' source='/assets/images/bmi.svg'>BMI</Card>
                     <Card btn="Edit" value='-5 Kgs' source='/assets/images/goal.svg'>Goal</Card>
-                    <Card btn="Edit" value='5 days' source='/assets/images/running-shoes.svg'>Days Active</Card>
+                    <Card btn="Edit" value='30 days' source='/assets/images/hourglass.svg'>Time left</Card>
+                    <Card btn="Edit" value='5 days' source='/assets/images/running-shoes.svg'>Activity req. per week</Card>
                 </div>
             </div>
         </div>
